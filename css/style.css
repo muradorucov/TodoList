@@ -42,6 +42,9 @@
     height: 40px;
     border: 1px solid #C4C4C4;
     border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+    box-sizing: border-box;
     outline: 0;
 }
 
