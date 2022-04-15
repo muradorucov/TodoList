@@ -8,7 +8,6 @@
 
 .main-box {
     width: 336px;
-    height: 236px;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 10px;
@@ -98,4 +97,42 @@
     top: 10px;
     cursor: pointer;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.list {
+    width: 286px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.list ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.list ul li {
+    margin: 20px 25px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list ul li img {
+    cursor: pointer;
+}
+
+
+/* .list ul li img:hover {
+    cursor: pointer;
+    background: #833AE0;
+} */
+
+.list-main {
+    display: flex;
+    justify-content: center;
 }
