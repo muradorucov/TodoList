@@ -104,10 +104,10 @@
 
 .list {
     width: 286px;
-    border: 1px solid #C4C4C4;
+    /* border: ; */
     box-sizing: border-box;
     border-radius: 10px;
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 
 .list ul {
